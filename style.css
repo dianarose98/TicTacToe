@@ -1,0 +1,31 @@
+BODY {
+    background: linear-gradient(rgba(0, 0, 0, .03) 1px, transparent 2px), linear-gradient(90deg, rgba(0, 0, 0, .03) 1px, transparent 2px);
+    background-size: 1em 1em;
+    background-color: #DDD;
+}
+
+#game {
+    position: absolute;
+    margin: 2em 450px;
+    display: block;
+    position: absolute;
+    top: 0;
+    border: 10px solid white;
+    bottom: 2em;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    background: blueviolet;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    line-height: 150px;
+    text-align: center;
+    font-size: 140px;
+    text-transform: uppercase;
+}
